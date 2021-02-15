@@ -3,17 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Conversor Medicações</title>
-    <link rel="stylesheet" href="estilos/style.css">
+    <title>Conversor Mililitros</title>
+    <link rel="stylesheet" href="estilos/mililitros.css">
+    <script src="scripts/calcularml.js"></script>
 </head>
 <body>
     <div class='container'>
-        <a href="Mililitros.html " class="clicavel container2 ">
-            <h1>Conversor de Medicações</h1>
-        </a>
-        
+        <header>
+            <h1>Mililitros</h2>
+        </header>
+      
+        <div class="unidades container2">
+            <div class="textos" >
+                
+                <span class="mililitros">Mililitros da Medicação:</span>
+                <span class="miligramas">Miligramas da Medicação:</span>
+                <span class="prescricao">Miligramas da Presrição Médica:</span>
+            </div>    
+
+            <div class="inputs">
+                <input class="num1" type="text">
+                <!--Calculo para calcular a ML
+                1° usamos a Ml da medicação, 2° usamos a MG da medicação,
+                3° usamos a MG da prescrição.
+                Ex: Prescrição Médica, Gentamicina 20mg IM. Tenho ampolas de 80mg/2ml
+                2ml ------------ 80mg
+                x ------------ 20mg
+                80x = 40 ---   x=40/80
+                x= 0.5ml
+                   -->
+                
+                <input class="num2" type="text">
+                
+                <input class="num3" type="text">
+            </div>  
+            
+            <button class="btcalcular" onclick="clicar()">
+                Resultado
+            </button>
+
+            <div class="resultado">
+                <p></p>
+            </div>
+
+            <footer class="footer ">Desenvolvido por Marcos Rafael</footer>
+        </div>        
     </div>
     
 </body>
 </html>
-
