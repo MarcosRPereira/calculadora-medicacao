@@ -21,6 +21,10 @@ h1{
     height:110px;
     width: 90%;
 }
+
+.conteudo-principal{
+    margin-bottom: 100px;
+}
 button{
     width: 100px;
     height: 30px;
@@ -52,10 +56,12 @@ button a{
     width: 250px;
     font-size: 16px;
     line-height: 22px;
+    
 }
 .inputs{
     float: right;
     width: 80px;
+    
 }
 .inputs input{
     width: 80px;
@@ -67,12 +73,12 @@ button a{
     font-weight: bold;
     padding: 5px;
 }
-.btcalcular{
+.btCalcular{
     color:white;
     background-color:rgba(143, 12, 250, 0.973);
     box-shadow:1px 2px 1px rgba(16, 14, 17, 0.637);
     justify-content: center;
-    margin: 10% 40%;
+    margin: 20px 150px;
 }
 .resultado{
     height: 30px;
@@ -83,7 +89,7 @@ button a{
 }
 .footer{
     margin-top: 50px;
-    margin-left: 30%;
+    margin-left: 100px;
     width: 80%;
     color: rgba(143, 12, 250, 0.61);
 }
