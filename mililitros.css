@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    height: 900px;
+    width: 900px;
+    margin: 20px auto;
+    background-color: rgba(112, 177, 144, 0.185); 
+}
+.container2{
+    margin: 20px auto;
+}
+h1{
+    color:  rgb(122, 0, 179);
+    text-align: center;
+    padding-top: 30px ;
+}
+.conteudo{
+    display: flex;
+    height:110px;
+    width: 90%;
+}
+button{
+    width: 100px;
+    height: 30px;
+    background: rgba(37, 70, 53, 0.377);
+    box-shadow:1px 2px 1px 1px rgba(16, 14, 17, 0.637);
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+    background: rgba(112, 177, 144, 0.185);
+}
+button span{
+    font-size: 11px; 
+    font-weight: bold; 
+    color: white;
+}
+button a{
+    text-decoration: none;
+}
+.unidades{
+    width: 400px;
+    height:400px;
+    padding: 50px;
+    background-color: rgba(37, 70, 53, 0.377);
+}
+.textos{
+    float: left;
+    height: 100px;
+    width: 250px;
+    font-size: 16px;
+    line-height: 22px;
+}
+.inputs{
+    float: right;
+    width: 80px;
+}
+.inputs input{
+    width: 80px;
+    height: 15px;
+    margin-bottom: 3px;
+}
+.unidades span{
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+}
+.btcalcular{
+    color:white;
+    background-color:rgba(143, 12, 250, 0.973);
+    box-shadow:1px 2px 1px rgba(16, 14, 17, 0.637);
+    justify-content: center;
+    margin: 10% 40%;
+}
+.resultado{
+    height: 30px;
+    color: crimson;
+    font-size: 25px;
+    margin:0 auto;
+    margin-top:30px;
+}
+.footer{
+    margin-top: 50px;
+    margin-left: 30%;
+    width: 80%;
+    color: rgba(143, 12, 250, 0.61);
+}
